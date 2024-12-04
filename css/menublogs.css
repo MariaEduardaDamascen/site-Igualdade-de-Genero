@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: #FF8FB7;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav a { /* estilo da barrinha de pesquisa */
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.listados-blogs { /* estilo da lista de blogs */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.blog-card { /* estilos dos cards dos blogs */
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card img { /* estilo img cards dos blogs */
+  width: 100%;
+  height: auto;
+}
+
+.blog-card h2 { /* estilo hê dos cards */
+  padding: 15px;
+  font-size: 1.5rem;
+}
+
+.blog-card p { /* estilo dos textos dos cards */
+  padding: 0 15px;
+  color: #555;
+}
+
+.leiamais { /* estilo botão leia mais dos cards*/
+  display: block;
+  background: #C8468E;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.leiamais:hover { /* estilo hover do leia mais*/
+  background: #FF6CA0;
+}
+
+footer{
+    
+    text-align: center;
+    background-color: #FF8FB7;
+}
+
+footer p{
+    color:#FFFFFF;  
+}

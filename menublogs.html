@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title><!--nome que aparece  na aba-->
+  <link rel="stylesheet" href="css/menublogs.css"><!--chamando o css-->
+</head>
+
+<body>
+  <header><!--cabeçalho da página-->
+  <h1>Blog</h1> <!--título que aparece na parte de cima da página-->
+  
+  <nav><!-- menu superior para outras páginas -->
+    <a href="#home">Home</a>
+    <a href="#plataforma">Plataforma</a>
+    <a href="#login">Login</a>
+  </nav>
+  
+  <!-- Campo de busca, barrinha de pesquisa -->
+  <input type="text" class="busca" placeholder="Buscar blogs...">
+</header>
+  
+  <main><!-- corpo da página -->
+    <section class="listados-blogs"> <!-- seção onde fica os cards dos blogs -->
+     
+      <!-- Exemplo de um card de blog -->
+      <article class="blog-card"> <!-- somente  um card de blog, no caso o primeiro -->
+        <img src="img/JUNTOS.jpg" alt="Imagem do Blog">
+        <h2>Lei Maria da Penha</h2>
+        <p>Resumo do conteúdo do blog para atrair o leitor...</p>
+        <a href="blog.html" class="leiamais"><!--botão leia mais-->
+         Leia mais</a>
+      </article>
+
+      <article class="blog-card"> <!-- outro card de blog, no caso o segundo -->
+        <img src="img/grupomulheresgrande.jpg" alt="Imagem do Blog">
+        <h2>O que é igualdade de gênero?</h2>
+        <p>Resumo de outro blog interessante...</p>
+        <a href="#" class="leiamais">
+            Leia mais</a>
+      </article>
+    </section>
+  </main>
+  
+  <footer><!-- rodapé da página -->
+    <p><strong>Maria, Matheus e Vitoria;
+    <br>2024 Blog</strong></p>
+  </footer>
+</body>
+  
+  <script src="js/menublogs.js"></script><!--chamando o JavaScript-->
+  
+</html>

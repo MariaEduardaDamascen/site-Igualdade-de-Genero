@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css" type="text/css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+      <a href="home.html" class="btn-home">Home</a> 
+        <a href="plataforma.html" class="btn-home">Plataforma</a>
+        <a href="login.html" class="btn-home">Login</a>
+
+    <div class="container">
+    <img src="img/formulario.avif" alt="flor">
+    <div class="text-content">
+    <h1>Compre suas "flores"</h1>
+    <p>Se sua flor é agressiva, chegou a hora de cuidar do seu jardim.
+        Nenhuma flor deveria crescer cercada por espinhos á machucam.
+         Muitas vezes, o que parece ser amor é na verdade violência
+          disfarçada. E nenhuma flor merece murchar por causa disso.    
+        Aqui, o significado de uma flor vai além da beleza é um ato de 
+        coragem. Ao “comprar” sua flor você não está só escolhendo um 
+        símbolo de delicadeza, mas também fará um gesto poderoso!       
+        As flores tem o direito de florescer livremente. Então, se
+         a sua “flor” é agressiva, é hora de dar um ponto final. </p>
+    </div>
+    </div>
+
+   <br>
+    <form>
+        <fieldset class="grupo"> <!--junção das duas divs: nome e sobrenome e a classe "grupo" pois ele vai agrupar tudo-->
+            <div class="campo">
+                <label for="nome"><strong>Nome:</strong></label> <!-- nome do campo e o "for" mostra para onde está sendo indicado esse campo-->
+                <input type="text" name="nome"  id="nome" required> <!--o "required" significa que a pessoa não vai conseguir enviar o formulário caso não prencha esse campo-->
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <label><strong>Localização:</strong></label>
+            <input type="text" name="localizacao"  id="localização">
+        </div>
+
+        <div class="campo">
+            <label><strong>O que você é do agressor?</strong></label>
+            <label>
+                <input type="radio" name="escolha" value="filha">Filha
+            </label>
+            <label>
+                <input type="radio" name="escolha" value="esposa">Esposa
+            </label>
+            <label>
+                <input type="radio" name="escolha" value="filha">Irmã
+            </label>
+            <label>
+                <input type="radio" name="escolha" value="filha"> Desconhecido
+            </label>
+            <label>
+                <input type="radio" name="escolha" value="outro">Outro
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="quantotempo"><strong>A quanto tempo você foi vítima?</strong></label>
+            <select id="quantotempo">
+                <option selected disabled value="">Selecione</option> <!-- essa opção não tem valor, só irá aparecer escrito-->
+                <option>+ de 1 semana</option>
+                <option>- de 1 semana</option>
+                <option>+ de 1 mês</option>
+                <option>- de 1 mês</option>
+                <option>6 meses</option>
+                <option>1 ano</option>
+                <option>2 anos</option>
+                <option>+ de 2 anos</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label><strong>Selecione as opções que correspondem com a sua situação:</strong></label><br><br>
+                <input type="checkbox" id="situacao1" name="situacao1" value="Violenciadomestica">
+                <label for="situacao1">Violência Doméstica</label>
+                
+                <input type="checkbox" id="situacao2" name="situacao2" value="Agressao">
+                <label for="situacao2">Agressão</label>
+
+                <input type="checkbox" id="situacao3" name="situacao3" value="Abusosexual">
+                <label for="situacao3">Abuso Sexual</label>
+
+                <input type="checkbox" id="situacao4" name="situacao4" value="Assedio">
+                <label for="situacao4">Assédio</label>
+
+                <input type="checkbox" id="situacao5" name="situacao5" value="Ameacas">
+                <label for="situacao5">Ameaças</label>
+
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label><strong>Descreva como ocorreu a situção e por que deseja denúnciar: 
+                (de preferência com datas, nomes, horários e detalhes)</strong></label>
+            <textarea row="6" style="width: 26em" id="descricao" name="descricao">Tudo começou... </textarea>
+            <br>
+            <br>
+
+            <button class="botao" type="submit">Enviar minha denuncia!</button> <!--submit é o tipi de botão que envia o formulário-->
+        </div>
+
+    
+    </form>
+ 
+</body>
+</html>

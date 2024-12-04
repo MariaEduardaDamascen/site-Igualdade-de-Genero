@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Título da página -->
+  <title>Site ODS</title>
+</head>
+ 
+<body>
+  <header>
+
+   <!-- Logo do site -->
+   <img src="img/logos.png" alt="Logo" class="logo">
+
+    <nav id="navbar">
+    <!-- Ícone do logo de menu -->
+     <i class="" id="nav_logo"> </i>
+     <ul id="nav_list">
+
+    <!-- Item de navegação para Home -->
+     <li class="nav-item active">
+     <a href="home.html">Home</a>
+     </li>
+
+    <!-- Item de navegação para Plataforma -->
+     <li class="nav-item">
+     <a href="plataforma.html">Plataforma</a>
+     </li>
+
+    <!-- Item de navegação para Login -->
+     <li class="nav-item">
+     <a href="#testimonials"></a>
+
+    <!-- Botão de Login -->
+     <button class="btn-default">
+      <a href="login.html">Login</a>
+     </button>
+     </ul>
+
+    <!-- Botão para menu móvel -->
+     <button id="mobile_btn">
+        <i class="fa-solid fa-bars"></i>
+     </button>
+    </nav>
+
+<div id="mobile_menu">
+
+<ul id="mobile_nav_list">
+
+    <!-- Item de navegação para Home no menu móvel -->
+        <li class="nav-item">
+         <a href="home.html">Home</a>
+        </li>
+
+    <!-- Item de navegação para Plataforma no menu móvel -->
+      <li class="nav-item">
+      <a href="plataforma.html">Plataforma</a>
+      </li>
+
+    <!-- Item de navegação para Login no menu móvel -->
+    <li class="nav-item">
+      <a href="#testimonials">
+
+      <button class="btn-default">
+        <a href="login.html">Login</a>
+      </button>
+    </li>
+</ul>
+</div>
+</header>
+
+<main id="content">
+
+    <section id="home">
+        <div class="shape">
+          <img src="img/mao-removebg-preview.png" alt="imagem" class="imagem">
+        </div>
+        <div id="cta">
+
+        <!-- Título principal -->
+        <h1 class="title">
+          <span>JUNTOS</span>
+          PARA UM MUNDO MELHOR!
+        </h1>
+
+        <!-- Descrição do site -->
+        <p class="description" style="color: white;" >
+         É um projeto para ODS, 5. Igualdade de gênero com o objetivo de:                 
+         Mulheres que sofrem violência precisam lembrar que sua força e valor são inquestionáveis.
+         Não estão sozinhas, e buscar ajuda é um ato de coragem. Existem recursos, apoio e pessoas
+         dispostas a oferecer suporte. É possível recomeçar e viver uma vida livre de medo.
+        </p>
+    
+        <div id="cta_buttons">
+        <!-- Botão para Loja Virtual -->
+        <input type="Button" onClick="lojavirtual();" value="Loja Virtual" class="btn-default">
+          <script>
+           function lojavirtual() {
+            open("lojavirtual.html");
+           }
+          </script>
+
+        <!-- Botão para Denunciar -->
+        <div id="cta_buttons">
+        <input type="Button" onClick="janeladenuncie();" value="Denuncie" class="btn-default">
+          <script>
+           function janeladenuncie() {
+            open("https://www.delegaciaeletronica.policiacivil.sp.gov.br/ssp-de-cidadao/home");
+           }
+          </script>
+
+        <!--botão para a página do Blog-->              
+        <div id="cta_buttons">
+        <input type="Button" onClick="blog();" value="Blog" class="btn-default">
+          <script>
+           function blog() {
+            open("menublogs.html");
+           }
+          </script>
+                     
+
+        <a href="tel:+55555555555" id="phone_button">
+         <button class="btn-default">
+        <!-- Importa o icóne do telefone -->
+         <i class="fa-solid fa-phone"></i>
+         </button>
+          180
+        </a>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+        
+   
+    <div class="linha-de-divisao"></div>
+        <!-- Seção de Depoimentos -->
+    <section id="testimonials">
+
+        <div id="testimonials_content">
+            <h2 class="section-title">
+                Depoimentos
+            </h2>
+            
+            <h3 class="section-subtitle">
+                Mulheres que venceram!
+            </h3>
+        
+            <div id="feedbacks">  <!-- Div para os feedbacks -->
+        <div class="feedback">
+          <img src="img/mulher1.png" class="feedback-avatar" alt="mulher"> <!-- Foto de perfil da pessoa que está avaliando -->
+        <div class="feedback-content">
+          <p style="color: black;">
+            <b>Marcela</b>
+        
+        <span>
+        <!-- Importando o icone das estrelinhas -->
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+          </p>
+
+          <p style="color: black;  ">
+             Eu era vitima de violência doméstica, este site me ajudou a se impor
+             os depoimentos me fizeram denunciar!!
+         </p>
+        </div>
+        </div>
+
+        <div class="feedback">
+         <img src="img/mulher2.png" class="feedback-avatar" alt="">  <!-- Foto de perfil da pessoa que está avaliando -->
+        <div class="feedback-content"> 
+          <p style="color: black;">
+           <b>Carla</b>
+        <span>
+        <!-- Importando o icone das estrelinhas -->
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </span>
+          </p>
+
+          <p style="color: black;  ">
+            Obrigada Maria Eduarda, Vitoria e Matheus! finalmente consegui buscar
+             apoio e me sinto livre para ser quem sou!!
+          </p>
+        </div>
+        </div>
+
+        <!-- Botão para mais avaliaçãoes -->
+            <button class="btn-default">
+              Ver mais avaliações
+            </button>
+        </div>
+    </section>
+</main>
+
+
+<h1>Quem Somos Nós?</h1>
+<p>Somos 3 jovens que criamos um site pensando no futuro, mas já melhorando o presente.</p>
+<div class="container">
+  <div class="image-box">
+    <a href="https://github.com/MariaEduardaDamascen" target="_blank">
+      <img src="img/duda.jpg" alt="Maria Eduarda Gomes">
+    </a>
+    <p>Maria Eduarda Gomes</p>
+  </div>
+  <div class="image-box">
+    <a href="https://github.com/VitoriaMS12" target="_blank">
+      <img src="img/vick.jpg" alt="Vitória Marques">
+    </a>
+    <p>Vitoria Marques</p>
+  </div>
+  <div class="image-box">
+    <a href="https://github.com/Math-29" target="_blank">
+      <img src="img/math.jpeg" alt="Matheus Augusto">
+    </a>
+    <p>Matheus Augusto</p>
+  </div>
+</div>
+        
+    <!-- Um footer para finalizar com nossos nome-->
+<footer id="footer">
+
+        <div class="social-media-buttons">
+        <!-- Botão do WhatsApp, não esta linkado-->
+            <a href=""> 
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            
+            <!-- Botão do Instagram -->
+            <a href="https://www.instagram.com/institutomariadapenha/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+                
+            <!-- Botão do Facebook -->
+            <a href="https://www.facebook.com/story.php/?story_fbid=806809078305115&id=100069280896562" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+            <img src="src/images/wave.svg" alt="">
+    
+        <div id="footer_items">
+            <span id="copyright"> <!--  -->
+                Maria Eduarda Gomes, Vitoria Marques e Matheus Augusto
+            </span>
+        </div>
+
+</footer>
+
+</body>
+
+<script src="js/menu.js"></script>
+
+</html>
