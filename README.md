@@ -1,4 +1,4 @@
-##Um site sobre Igualdade de Gênero##
+*Um site sobre Igualdade de Gênero*
 
 O site Igualdade de Gênero tem como objetivo promover a conscientização e a ação em torno das questões de equidade entre os gêneros.
 Por meio de conteúdos informativos, notícias atualizadas, e recursos educativos, a plataforma visa destacar a importância de garantir direitos iguais para todas as pessoas, independentemente de seu sexo ou identidade de gênero.
